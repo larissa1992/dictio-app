@@ -9,7 +9,12 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Coded by Larissa</footer>
+        <footer className="App-footer">
+          Coded by Larissa and is{" "}
+          <a href="https://github.com/larissa1992/dictio-app" target="0_blank">
+            open-sourced
+          </a>
+        </footer>
       </div>
     </div>
   );
