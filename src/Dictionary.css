@@ -1,3 +1,39 @@
 .Dictionary form {
-  margin: 40px 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Dictionary input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.Dictionary section {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 40px 15px;
+  margin: 50px 0;
+}
+.Dictionary h1 {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Dictionary h2,
+h3 {
+  color: #333;
+  font-weight: bold;
+}
+
+.Dictionary main {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  border-radius: 10px;
+  padding: 40px 15px;
+  margin: 50px 0;
 }
