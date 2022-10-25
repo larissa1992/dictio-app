@@ -6,10 +6,10 @@ export default function Phonetic(props) {
   if (props.phonetic) {
     return (
       <div className="Phonetic row">
-        <div className=" col-4">
+        <div className=" col">
           <ReactAudioPlayer src={props.phonetic.audio} controls />
         </div>
-        <div className="text col-3">{props.phonetic.text}</div>
+        <div className="text col">{props.phonetic.text}</div>
       </div>
     );
   } else {
