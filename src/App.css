@@ -1,12 +1,20 @@
 body {
-  max-width: 960px;
+  max-width: 760px;
   margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("library.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 .App-footer {
   text-align: center;
   margin: 40px 0;
+  color: white;
 }
 
 a {
+  font-size: 18;
   color: grey;
 }

@@ -1,10 +1,6 @@
-.Phonetic {
-  height: 60px;
-  margin: 10px;
-}
-
 .Phonetic .text {
-  margin: 5px 0;
+  margin-top: 15px;
+  margin-left: 15px;
   opacity: 0.7;
   font-size: larger;
 }

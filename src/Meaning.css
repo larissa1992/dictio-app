@@ -1,11 +1,11 @@
-.Meaning h3 {
+.Meaning h2 {
   font-size: 20px;
   line-height: 1.5;
   font-weight: bold;
 }
 
 .Meaning .example {
-  font-size: 18px;
+  font-size: 15px;
   opacity: 0.7;
   font-style: italic;
   margin-top: 10px;
